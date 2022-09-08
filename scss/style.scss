@@ -88,52 +88,51 @@
     }
    }
  
- /* footer */
+  /* footer */
 footer{
     
-     width: 100%;
-    background-color: rgb(15, 91, 141);
-    
+    width: 100%;
+   background-color: rgb(15, 91, 141);
+   
 p{
-        color: white;
-        font-size: 25px;
-    }
+       color: white;
+       font-size: 25px;
+   }
 .footer-iconos{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        background-color: rgb(29, 108, 161);
-       
-        }
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       gap: 10px;
+       background-color: rgb(29, 108, 161);
+      
+       }
 .footer-iconos img{
-            max-height: 40px; 
-            
-        }
-        }
-        .enlacesFooter{
-            background-color: rgb(29, 108, 161);
-            
-        }
-        .footerTexto{
-            color: white;
-            
-        }
-        .enlacesFooter ul{
-            list-style-type: none;
-            
-        
-        
-        }
-        .enlacesFooter li a{
-            color: white;
-            text-decoration: none;
-            &:hover{
-                color: black;
-            }
-            
-        }
-    
+           max-height: 40px; 
+           
+       }
+       }
+       .enlacesFooter{
+           background-color: rgb(29, 108, 161);
+           
+       }
+       .footerTexto{
+           color: white;
+           
+       }
+       .enlacesFooter ul{
+           list-style-type: none;
+           
+       
+       
+       }
+       .enlacesFooter li a{
+           color: white;
+           text-decoration: none;
+           &:hover{
+               color: black;
+           }
+           
+       }
     
 
  /* CARDS UBICACION */
