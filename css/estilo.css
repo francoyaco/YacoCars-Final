@@ -48,6 +48,9 @@ header {
   gap: 20px;
   background-color: #f8f8f8; }
 
+.seccion3-index .oportunidades:hover {
+  background-color: yellow; }
+
 .seccion3-index .oportunidades-index img {
   max-height: 150px; }
 
@@ -75,8 +78,7 @@ footer {
     gap: 10px;
     background-color: #1d6ca1; }
   footer .footer-iconos img {
-    max-height: 40px;
-    margin-top: 30px; }
+    max-height: 40px; }
 
 .enlacesFooter {
   background-color: #1d6ca1; }
@@ -88,7 +90,10 @@ footer {
   list-style-type: none; }
 
 .enlacesFooter li a {
-  color: white; }
+  color: white;
+  text-decoration: none; }
+  .enlacesFooter li a:hover {
+    color: black; }
 
 /* CARDS UBICACION */
 .card-body iframe {

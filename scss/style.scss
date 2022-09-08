@@ -62,9 +62,17 @@
         justify-content: center;
         gap: 20px;
         background-color: rgb(248, 248, 248);
+       
+        
+    }
+    .oportunidades{
+        &:hover{
+            background-color: yellow;
+        }
     }
     .oportunidades-index img{
         max-height: 150px;
+       
     }
         }
    .seccion4-index{
@@ -85,6 +93,7 @@ footer{
     
      width: 100%;
     background-color: rgb(15, 91, 141);
+    
 p{
         color: white;
         font-size: 25px;
@@ -99,24 +108,29 @@ p{
         }
 .footer-iconos img{
             max-height: 40px; 
-            margin-top: 30px;
-           
             
         }
         }
         .enlacesFooter{
             background-color: rgb(29, 108, 161);
+            
         }
         .footerTexto{
             color: white;
+            
         }
         .enlacesFooter ul{
             list-style-type: none;
+            
         
         
         }
         .enlacesFooter li a{
             color: white;
+            text-decoration: none;
+            &:hover{
+                color: black;
+            }
             
         }
     
@@ -176,9 +190,9 @@ p{
 .nosotros-container{
     display: flex;
     flex-direction: row;
-    
-    
+  
 }
+
  .nosotros-p{
      font-family: 'Space Mono', monospace;
      color: rgb(41, 40, 40);
