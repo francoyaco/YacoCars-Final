@@ -75,14 +75,14 @@
        
     }
         }
-   .seccion4-index{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 50px;
-    background-color: rgb(248, 248, 248);
- 
+        .seccion4-index{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 150px;
+            margin-top: 50px;
+            background-color: rgb(248, 248, 248);
+        
     img{
         height: 290px;
     }
@@ -93,7 +93,7 @@ footer{
     
     width: 100%;
    background-color: rgb(15, 91, 141);
-   
+
 p{
        color: white;
        font-size: 25px;
@@ -108,19 +108,19 @@ p{
        }
 .footer-iconos img{
            max-height: 40px; 
-           
        }
        }
        .enlacesFooter{
            background-color: rgb(29, 108, 161);
-           
+
        }
        .footerTexto{
            color: white;
-           
+
        }
        .enlacesFooter ul{
            list-style-type: none;
+         
            
        
        
@@ -128,9 +128,11 @@ p{
        .enlacesFooter li a{
            color: white;
            text-decoration: none;
+           
            &:hover{
                color: black;
            }
+           
            
        }
     
@@ -162,6 +164,7 @@ p{
      width: 32%;
      box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.43);
      background-color: rgb(226, 222, 222);
+     height: 520px;
      
  }
  .formuText{
@@ -181,14 +184,18 @@ p{
  
  .botonForm{
      display: flex;
-    
+   
      justify-content: center;
      
+ }
+ .boton-form{
+    background-color: black;
  }
  /*Nosotros*/
 .nosotros-container{
     display: flex;
     flex-direction: row;
+
   
 }
 
@@ -255,3 +262,5 @@ p{
         width: 100%;
     }
 }
+
+

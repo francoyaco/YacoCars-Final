@@ -116,7 +116,8 @@ form {
   border: 1px solid black;
   width: 32%;
   box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.43);
-  background-color: #e2dede; }
+  background-color: #e2dede;
+  height: 520px; }
 
 .formuText {
   text-align: center;
@@ -132,6 +133,9 @@ form {
 .botonForm {
   display: flex;
   justify-content: center; }
+
+.boton-form {
+  background-color: black; }
 
 /*Nosotros*/
 .nosotros-container {
