@@ -95,6 +95,14 @@ footer {
   .enlacesFooter li a:hover {
     color: black; }
 
+/*POLITICA DATOS*/
+.contenedor-politica {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; }
+  .contenedor-politica h5 {
+    text-decoration: underline; }
+
 /* CARDS UBICACION */
 .card-body iframe {
   width: 100%; }

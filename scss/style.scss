@@ -43,7 +43,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
-
   height: 400px;
 }
 .seccion3-index {
@@ -121,7 +120,15 @@ footer {
     color: black;
   }
 }
-
+/*POLITICA DATOS*/
+.contenedor-politica{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+h5{
+    text-decoration: underline;
+  }
+}
 /* CARDS UBICACION */
 .card-body iframe {
   width: 100%;
@@ -173,6 +180,7 @@ form {
 .nosotros-container {
   display: flex;
   flex-direction: row;
+
 }
 
 .nosotros-p {
@@ -184,6 +192,7 @@ form {
 .h2-nosotros {
   color: black;
 }
+
 
 /*Vehiculos*/
 .boton-vehiculo {
