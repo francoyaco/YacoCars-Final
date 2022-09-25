@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Merriweather:wght@300&family=Oswald:wght@300&family=Space+Mono&display=swap');
+
 /*INDEX CAROUSEL*/
 .body {
   background-color: white;
@@ -133,6 +135,9 @@ h5{
 .h2-preguntas{
   background-color: rgb(190, 189, 189);
 }
+.h3-preguntas{
+  background-color: rgb(136, 221, 247);
+}
 
 .preguntas-frecuentes1{
   display: flex;
@@ -140,6 +145,10 @@ h5{
   gap: 70px;
   h3{
     text-decoration: underline;
+  }
+  p{
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
   }
 }
 /* CARDS UBICACION */

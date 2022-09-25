@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Merriweather:wght@300&family=Oswald:wght@300&family=Space+Mono&display=swap");
 /*INDEX CAROUSEL*/
 .body {
   background-color: white; }
@@ -107,12 +108,18 @@ footer {
 .h2-preguntas {
   background-color: #bebdbd; }
 
+.h3-preguntas {
+  background-color: #88ddf7; }
+
 .preguntas-frecuentes1 {
   display: flex;
   flex-direction: column;
   gap: 70px; }
   .preguntas-frecuentes1 h3 {
     text-decoration: underline; }
+  .preguntas-frecuentes1 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px; }
 
 /* CARDS UBICACION */
 .card-body iframe {
