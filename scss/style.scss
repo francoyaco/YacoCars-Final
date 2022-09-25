@@ -151,6 +151,26 @@ h5{
     font-size: 20px;
   }
 }
+
+/*TRABAJAR CON NOSOTROS*/
+.trabajaNosotros{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+}
+.cv{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  button{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.trabaja{
+  width: 500px;
+}
 /* CARDS UBICACION */
 .card-body iframe {
   width: 100%;
@@ -266,3 +286,12 @@ form {
   }
 }
 
+/*Formulario trabaja con nosotros*/
+@media all and (min-width: 376px) and (max-width: 550px) {
+  .trabajaNosotros{
+    width: 100%;
+  }
+  .trabaja{
+    width: 100%;
+  }
+}
