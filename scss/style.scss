@@ -84,7 +84,9 @@ header {
 /* footer */
 footer {
   width: 100%;
-  background-color: rgb(15, 91, 141);
+  background-color: rgb(29, 108, 161);
+  box-sizing: border-box;
+  padding: 8px;
 
   p {
     color: white;
